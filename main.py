@@ -15,21 +15,21 @@ def unmark(mark):
 
 class Machine:
     def __init__(self, text):
-        self.tape = list(text)
-        self.head = 0
-        self.steps = 0
+        self.tape = list(text) # input
+        self.head = 0 # current position
+        self.steps = 0 # step counter
 
-    def read(self):
+    def read(self): # read head
         return self.tape[self.head]
 
-    def write(self, symbol):
+    def write(self, symbol): # overwrite symbol at head
         self.tape[self.head] = symbol
 
-    def right(self):
+    def right(self): # head move right
         self.head += 1
         self.steps += 1
  
-    def left(self):
+    def left(self): # head move left
         assert self.head > 0, "moved off the left edge"   # '[' at cell 0 stops us
         self.head -= 1
         self.steps += 1
@@ -37,7 +37,38 @@ class Machine:
     def show(self):
         return "".join(self.tape) + "\n" + " " * self.head + "^"
 
-def has_next_word(m: Machine) -> bool:
+def write_line(current_state, current_symbol, move, next_symbol, next_state):
+    f.write(f"{current_state}\t{current_symbol}\t{move}\t{next_symbol}\t{next_state}\n")
+
+def to_next_word(m: Machine):
+    while m.read() in HEX: # move to comma between A and B
+        m.right()
+    m.right() # into B
+
+    for hex in HEX:
+        write_line("scan_word", hex, "→", hex, "scan_word")
+
+    write_line("scan_word", ",", "→", ",", "next_word")
+
+def to_previous_word(m: Machine):
+    while m.read() in MARK: # move to comma between A and B
+        m.left()
+    m.left() # into A
+
+    for hex in HEX:
+        write_line("scan_word", hex, "←", hex, "scan_word")
+
+    write_line("scan_word", ",", "←", ",", "previous_word")
+
+def to_nonmarked(m: Machine):
+    while m.read() in MARK: # move to non marked
+        m.right()
+
+def to_marked(m: Machine):
+    while m.read() in HEX: # move through HEX to first marked digit
+        m.left()
+
+def has_next_word(m: Machine) -> bool: 
     while m.read() in HEX: # move to comma or [
         m.right()
 
@@ -71,19 +102,16 @@ def erase_marks(m : Machine):
     m.right() # past comma into B digit
 
 def compare_and_swap(m : Machine) -> bool: # returns bool cus checks if its been swapped
+    # checks if A > B, if so swaps them
     while True: # word A and word B
         a = m.read()
         m.write(mark(a)) # mark current
 
         m.right()
 
-        while m.read() in HEX: # move to comma
-            m.right()
+        to_next_word(m) # move to word B
 
-        m.right() # in word b
-
-        while m.read() in MARK: # move to non marked
-            m.right()
+        to_nonmarked(m) # move to next nonmarked digit in B
 
         b = m.read()
 
@@ -96,34 +124,28 @@ def compare_and_swap(m : Machine) -> bool: # returns bool cus checks if its been
             if m.read() not in HEX: # B has no more hex, identical words
                 m.left()
                 erase_marks(m)
-                return False
+                return False # no swap
 
             # moving back to A's next unmarked digit
             m.left() # move back to B marked
-            while m.read() in MARK: # move to comma between A and B
-                m.left()
-            m.left() # into A
-            while m.read() in HEX: # move through HEX to first marked digit
-                m.left()
+            to_previous_word(m) # move to word A
+            to_marked(m) # move to first marked digit in A
             m.right() # A's next unmarked digit
-            continue
+            continue # check rest of word
 
         if HEX.index(a) < HEX.index(b):
             erase_marks(m) # A < B: already in order, tidy up
-            return False 
+            return False # no swap
 
         swap(m, a, b) # A > B: swap from here on (currently at b)
         return True
 
-def swap(m: Machine, a, b):
+def swap(m: Machine, a, b): # swaps words A and B
     while True:
         m.write(mark(a)) # replace b with a
         m.left() # move back to B marked
-        while m.read() in MARK: # move to comma between A and B
-            m.left()
-        m.left() # into A
-        while m.read() in HEX: # move through HEX to first marked digit
-            m.left()
+        to_previous_word(m) # move to word A
+        to_marked(m) # move to first marked digit in A
         m.write(mark(b)) # replace a with b
 
         m.right()
@@ -133,13 +155,9 @@ def swap(m: Machine, a, b):
         a = m.read()
         m.write(mark(a)) # mark a
         m.right()
-        while m.read() in HEX: # move to comma
-            m.right()
-
-        m.right() # in word b
-
-        while m.read() in MARK: # move to non marked
-            m.right()
+        
+        to_next_word(m) # move to word B
+        to_nonmarked(m) # move to next nonmarked digit in B
 
         b = m.read()
     # all words are swapped but marked (currently at "," between A and B)
@@ -157,7 +175,7 @@ def sort_tape(text):
         swapped = False
         while has_next_word(m):
             did_swap = compare_and_swap(m) # true or false
-            swapped = swapped or did_swap # if swapped, stay true
+            swapped = swapped or did_swap # if any swapped, stay true
         while m.read() != "[": # go back to beginning
             m.left()
         if not swapped: # no swap, accept
@@ -187,11 +205,12 @@ def tests():
         assert got == want and m.head == 0, (words, got)
     print(f"{len(cases)} cases passed: sorted, no marks left, head back at cell 0")
  
- 
+
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    if args:
-        m = sort_tape(args[0])
-        print("result:", "".join(m.tape), f"(head={m.head}, steps={m.steps})")
-    else:
-        tests()
+    with open("sort.tsv", "w", encoding="utf-8") as f: # write to file
+        if args:
+            m = sort_tape(args[0])
+            print("result:", "".join(m.tape), f"(head={m.head}, steps={m.steps})")
+        else:
+            tests()
