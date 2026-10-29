@@ -40,6 +40,9 @@ class Machine:
 def write_line(current_state, current_symbol, move, next_symbol, next_state):
     f.write(f"{current_state}\t{current_symbol}\t{move}\t{next_symbol}\t{next_state}\n")
 
+
+states = "start"
+
 def to_next_word(m: Machine):
     while m.read() in HEX: # move to comma between A and B
         m.right()
@@ -71,16 +74,23 @@ def to_marked(m: Machine):
 def has_next_word(m: Machine) -> bool: 
     while m.read() in HEX: # move to comma or [
         m.right()
+        write_line("peek", "anyhex", RIGHT, "", "peek")
 
-    if m.read() == ",": found = True # "," if has next word, "]" is no
-    else: found = False
+    if m.read() == ",": 
+        found = True # "," if has next word, "]" is no
+        write_line("peek", ",", LEFT, "", "goback")
+    else: 
+        found = False
+        write_line("peek", "]", LEFT, "", "rewind")
     
     m.left()
 
     while m.read() in HEX: # move back to start of word
         m.left()
+        write_line("goback", "anyhex", LEFT, "", "goback")
     
     m.right()
+    write_line("goback", ", [", RIGHT, "", "compare")
     
     return found
 
@@ -171,6 +181,7 @@ def swap(m: Machine, a, b): # swaps words A and B
 def sort_tape(text):
     m = Machine(text)
     m.right() # skip "["
+    write_line(INIT, OPEN , RIGHT, "", "comp_asc_begin")
     while True: # loop through the tape
         swapped = False
         while has_next_word(m):
