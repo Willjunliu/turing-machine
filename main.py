@@ -80,23 +80,23 @@ def unmark_left(m: Machine):
 def has_next_word(m: Machine) -> bool: 
     while m.read() in HEX: # move to comma or [
         m.right()
-        write_line("peek", "anyhex", RIGHT, "", "peek")
+        write_rule("peek", "anyhex", RIGHT, "", "peek")
 
     if m.read() == ",": 
         found = True # "," if has next word, "]" is no
-        write_line("peek", ",", LEFT, "", "goback")
+        write_rule("peek", ",", LEFT, "", "goback")
     else: 
         found = False
-        write_line("peek", "]", LEFT, "", "rewind")
+        write_rule("peek", "]", LEFT, "", "rewind")
     
     m.left()
 
     while m.read() in HEX: # move back to start of word
         m.left()
-        write_line("goback", "anyhex", LEFT, "", "goback")
+        write_rule("goback", "anyhex", LEFT, "", "goback")
     
     m.right()
-    write_line("goback", ", [", RIGHT, "", "compare")
+    write_rule("goback", ", [", RIGHT, "", "compare")
     
     return found
 
