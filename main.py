@@ -47,20 +47,18 @@ def to_next_word(m: Machine):
         m.right()
     m.right() # into B
 
-    for hex in HEX:
-        write_rule("scan_word", hex, RIGHT, hex, "scan_word")
+    write_rule("scan_word", " ".join(HEX), RIGHT, "", "scan_word")
 
-    write_rule("scan_word", ",", RIGHT, ",", "next_word")
+    write_rule("scan_word", ",", RIGHT, "", "next_word")
 
 def to_previous_word(m: Machine):
     while m.read() in MARK: # move to comma between A and B
         m.left()
     m.left() # into A
 
-    for mark in MARK:
-        write_rule("scan_word", mark, LEFT, mark, "scan_word")
+    write_rule("scan_word", " ".join(MARK), LEFT, "", "scan_word")
 
-    write_rule("scan_word", ",", LEFT, ",", "previous_word")
+    write_rule("scan_word", ",", LEFT, "", "previous_word")
 
 def to_nonmarked(m: Machine):
     while m.read() in MARK: # move to non marked
@@ -70,12 +68,17 @@ def to_marked(m: Machine):
     while m.read() in HEX: # move through HEX to first marked digit
         m.left()
 
+def unmark_left(m: Machine):
+    while m.read() not in "[,": 
+        if m.read() in MARK:
+            m.write(unmark(m.read()))
+        m.left()
+
 def has_next_word(m: Machine) -> bool: 
     while m.read() in HEX: # move to comma or [
         m.right()
 
-    for hex in HEX:
-            write_rule("scan_word", hex, RIGHT, hex, "scan_word")
+    write_rule("scan_word", " ".join(HEX), RIGHT, "", "scan_word")
 
     if m.read() == ",": found = True # "," if has next word, "]" is no
     else: found = False
@@ -90,21 +93,15 @@ def has_next_word(m: Machine) -> bool:
     return found
 
 def erase_marks(m : Machine):
-    while m.read() != ",": # going left from B, to "," between A and B
-        if m.read() in MARK:
-            m.write(unmark(m.read()))
-        m.left()
+    unmark_left(m) 
     m.left() # past comma into A
 
     for mark in MARK:
         write_rule("erase_marks", mark, LEFT, unmark(mark), "erase_marks")
-    for hex in HEX:
-        write_rule("erase_marks", hex, LEFT, hex, "erase_marks")
 
-    while m.read() not in "[,": # unmark A
-        if m.read() in MARK:
-            m.write(unmark(m.read()))
-        m.left()
+    write_rule("erase_marks", " ".join(HEX), LEFT, "", "erase_marks")
+
+    unmark_left(m) # unmark A
     m.right() # past "[," to A digit
 
     to_next_word(m) # move to B
@@ -167,16 +164,20 @@ def swap(m: Machine, a, b): # swaps words A and B
         b = m.read()
     # all words are swapped but marked (currently at "," between A and B)
     m.right() # into B's first digit
-    while m.read() not in ",]": # unmark B going right
-        m.write(unmark(m.read()))
+
+    while m.read() in MARK: 
         m.right()
-    m.left()  # back onto B's last digit
-    erase_marks(m) # now unmark A and finish
+    write_rule("scan_word", " ".join(HEX), RIGHT, "", "scan_word")
+
+    m.left() # move to last digit of B
+    write_rule("scan_word", ",", LEFT, "", "")
+
+    erase_marks(m) # now unmark A and B
 
 def sort_tape(text):
     m = Machine(text)
     m.right() # skip "["
-    write_rule(INIT, "[", RIGHT, "[", "scan_word")
+    write_rule(INIT, "[", RIGHT, "", "scan_word")
     while True: # loop through the tape
         swapped = False
         while has_next_word(m):

@@ -1,564 +1,71 @@
-⎆	[	→	[	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+⎆	[	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -575,72 +82,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -657,599 +104,76 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -1266,599 +190,76 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -1875,88 +276,13 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -1973,72 +299,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -2055,599 +321,76 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -2664,72 +407,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -2746,88 +429,13 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -2844,599 +452,76 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -3453,72 +538,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -3535,72 +560,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -3617,615 +582,77 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	a	←	a	scan_word
-scan_word	b	←	b	scan_word
-scan_word	c	←	c	scan_word
-scan_word	d	←	d	scan_word
-scan_word	e	←	e	scan_word
-scan_word	f	←	f	scan_word
-scan_word	g	←	g	scan_word
-scan_word	h	←	h	scan_word
-scan_word	i	←	i	scan_word
-scan_word	j	←	j	scan_word
-scan_word	k	←	k	scan_word
-scan_word	l	←	l	scan_word
-scan_word	m	←	m	scan_word
-scan_word	n	←	n	scan_word
-scan_word	o	←	o	scan_word
-scan_word	p	←	p	scan_word
-scan_word	,	←	,	previous_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	a b c d e f g h i j k l m n o p	←		scan_word
+scan_word	,	←		previous_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	←		
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4242,72 +669,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4324,72 +691,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4406,72 +713,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4488,88 +735,13 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4586,72 +758,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4668,72 +780,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4750,72 +802,12 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
 erase_marks	a	←	0	erase_marks
 erase_marks	b	←	1	erase_marks
 erase_marks	c	←	2	erase_marks
@@ -4832,52 +824,7 @@ erase_marks	m	←	C	erase_marks
 erase_marks	n	←	D	erase_marks
 erase_marks	o	←	E	erase_marks
 erase_marks	p	←	F	erase_marks
-erase_marks	0	←	0	erase_marks
-erase_marks	1	←	1	erase_marks
-erase_marks	2	←	2	erase_marks
-erase_marks	3	←	3	erase_marks
-erase_marks	4	←	4	erase_marks
-erase_marks	5	←	5	erase_marks
-erase_marks	6	←	6	erase_marks
-erase_marks	7	←	7	erase_marks
-erase_marks	8	←	8	erase_marks
-erase_marks	9	←	9	erase_marks
-erase_marks	A	←	A	erase_marks
-erase_marks	B	←	B	erase_marks
-erase_marks	C	←	C	erase_marks
-erase_marks	D	←	D	erase_marks
-erase_marks	E	←	E	erase_marks
-erase_marks	F	←	F	erase_marks
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
-scan_word	,	→	,	next_word
-scan_word	0	→	0	scan_word
-scan_word	1	→	1	scan_word
-scan_word	2	→	2	scan_word
-scan_word	3	→	3	scan_word
-scan_word	4	→	4	scan_word
-scan_word	5	→	5	scan_word
-scan_word	6	→	6	scan_word
-scan_word	7	→	7	scan_word
-scan_word	8	→	8	scan_word
-scan_word	9	→	9	scan_word
-scan_word	A	→	A	scan_word
-scan_word	B	→	B	scan_word
-scan_word	C	→	C	scan_word
-scan_word	D	→	D	scan_word
-scan_word	E	→	E	scan_word
-scan_word	F	→	F	scan_word
+erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+scan_word	,	→		next_word
+scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
