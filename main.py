@@ -37,28 +37,30 @@ class Machine:
     def show(self):
         return "".join(self.tape) + "\n" + " " * self.head + "^"
 
-def write_line(current_state, current_symbol, move, next_symbol, next_state):
+def write_rule(current_state, current_symbol, move, next_symbol, next_state):
     f.write(f"{current_state}\t{current_symbol}\t{move}\t{next_symbol}\t{next_state}\n")
 
 def to_next_word(m: Machine):
+    m.right()
+
     while m.read() in HEX: # move to comma between A and B
         m.right()
     m.right() # into B
 
     for hex in HEX:
-        write_line("scan_word", hex, "→", hex, "scan_word")
+        write_rule("scan_word", hex, RIGHT, hex, "scan_word")
 
-    write_line("scan_word", ",", "→", ",", "next_word")
+    write_rule("scan_word", ",", RIGHT, ",", "next_word")
 
 def to_previous_word(m: Machine):
     while m.read() in MARK: # move to comma between A and B
         m.left()
     m.left() # into A
 
-    for hex in HEX:
-        write_line("scan_word", hex, "←", hex, "scan_word")
+    for mark in MARK:
+        write_rule("scan_word", mark, LEFT, mark, "scan_word")
 
-    write_line("scan_word", ",", "←", ",", "previous_word")
+    write_rule("scan_word", ",", LEFT, ",", "previous_word")
 
 def to_nonmarked(m: Machine):
     while m.read() in MARK: # move to non marked
@@ -71,6 +73,9 @@ def to_marked(m: Machine):
 def has_next_word(m: Machine) -> bool: 
     while m.read() in HEX: # move to comma or [
         m.right()
+
+    for hex in HEX:
+            write_rule("scan_word", hex, RIGHT, hex, "scan_word")
 
     if m.read() == ",": found = True # "," if has next word, "]" is no
     else: found = False
@@ -91,23 +96,24 @@ def erase_marks(m : Machine):
         m.left()
     m.left() # past comma into A
 
+    for mark in MARK:
+        write_rule("erase_marks", mark, LEFT, unmark(mark), "erase_marks")
+    for hex in HEX:
+        write_rule("erase_marks", hex, LEFT, hex, "erase_marks")
+
     while m.read() not in "[,": # unmark A
         if m.read() in MARK:
             m.write(unmark(m.read()))
         m.left()
     m.right() # past "[," to A digit
 
-    while m.read() in HEX: # go past A
-        m.right()
-    m.right() # past comma into B digit
+    to_next_word(m) # move to B
 
 def compare_and_swap(m : Machine) -> bool: # returns bool cus checks if its been swapped
     # checks if A > B, if so swaps them
     while True: # word A and word B
         a = m.read()
         m.write(mark(a)) # mark current
-
-        m.right()
 
         to_next_word(m) # move to word B
 
@@ -154,7 +160,6 @@ def swap(m: Machine, a, b): # swaps words A and B
 
         a = m.read()
         m.write(mark(a)) # mark a
-        m.right()
         
         to_next_word(m) # move to word B
         to_nonmarked(m) # move to next nonmarked digit in B
@@ -171,6 +176,7 @@ def swap(m: Machine, a, b): # swaps words A and B
 def sort_tape(text):
     m = Machine(text)
     m.right() # skip "["
+    write_rule(INIT, "[", RIGHT, "[", "scan_word")
     while True: # loop through the tape
         swapped = False
         while has_next_word(m):
@@ -213,4 +219,5 @@ if __name__ == "__main__":
             m = sort_tape(args[0])
             print("result:", "".join(m.tape), f"(head={m.head}, steps={m.steps})")
         else:
-            tests()
+            # tests()
+            m = sort_tape("[C53D17892A8D0F2D,8D251C8331387B1D,FBBD171C817C81E0,DFCF837BC6F0705F,1FEB07B141DEEC90]")
