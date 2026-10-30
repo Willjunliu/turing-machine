@@ -1,5 +1,6 @@
 # Tests a sorter machine file using the course's reference parser/simulator.
-# Usage:  python test_with_reference.py reference_parser.py sort_user.tsv
+# Usage:  python test.py tm.py sort.tsv
+
 import importlib.util
 import random
 import sys

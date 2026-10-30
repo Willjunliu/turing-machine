@@ -3,6 +3,10 @@
 This file is the canonical definition of the format. The spec sheet is a guide to it.
 """
 
+# usage: python tm.py sort.tsv [tape1 tape2 ...]
+# usage: python tm.py sort.tsv --trace [tape1 tape2 ...]
+
+
 import argparse
 from collections.abc import Iterator
 import csv
