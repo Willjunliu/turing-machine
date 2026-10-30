@@ -1,830 +1,1134 @@
-⎆	[	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	a b c d e f g h i j k l m n o p	←		scan_word
-scan_word	,	←		previous_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	←		
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-erase_marks	a	←	0	erase_marks
-erase_marks	b	←	1	erase_marks
-erase_marks	c	←	2	erase_marks
-erase_marks	d	←	3	erase_marks
-erase_marks	e	←	4	erase_marks
-erase_marks	f	←	5	erase_marks
-erase_marks	g	←	6	erase_marks
-erase_marks	h	←	7	erase_marks
-erase_marks	i	←	8	erase_marks
-erase_marks	j	←	9	erase_marks
-erase_marks	k	←	A	erase_marks
-erase_marks	l	←	B	erase_marks
-erase_marks	m	←	C	erase_marks
-erase_marks	n	←	D	erase_marks
-erase_marks	o	←	E	erase_marks
-erase_marks	p	←	F	erase_marks
-erase_marks	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_marks
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
-scan_word	,	→		next_word
-scan_word	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		scan_word
+⎆	[	→		start_0
+start_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		peek_0
+start_0	]	←		rewind_0
+peek_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		peek_0
+peek_0	,	←		go_back_0
+peek_0	]	←		rewind_0
+go_back_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		go_back_0
+go_back_0	, [	→		compare_0
+compare_0	0	→	a	carry_0_0
+compare_0	1	→	b	carry_0_1
+compare_0	2	→	c	carry_0_2
+compare_0	3	→	d	carry_0_3
+compare_0	4	→	e	carry_0_4
+compare_0	5	→	f	carry_0_5
+compare_0	6	→	g	carry_0_6
+compare_0	7	→	h	carry_0_7
+compare_0	8	→	i	carry_0_8
+compare_0	9	→	j	carry_0_9
+compare_0	A	→	k	carry_0_A
+compare_0	B	→	l	carry_0_B
+compare_0	C	→	m	carry_0_C
+compare_0	D	→	n	carry_0_D
+compare_0	E	→	o	carry_0_E
+compare_0	F	→	p	carry_0_F
+compare_0	,	→		move_to_end_b_0
+carry_0_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_0
+carry_0_0	,	→		find_0_0
+find_0_0	a b c d e f g h i j k l m n o p	→		find_0_0
+find_0_0	0	←	a	back_b_0
+find_0_0	1	←		erase_b_0
+find_0_0	2	←		erase_b_0
+find_0_0	3	←		erase_b_0
+find_0_0	4	←		erase_b_0
+find_0_0	5	←		erase_b_0
+find_0_0	6	←		erase_b_0
+find_0_0	7	←		erase_b_0
+find_0_0	8	←		erase_b_0
+find_0_0	9	←		erase_b_0
+find_0_0	A	←		erase_b_0
+find_0_0	B	←		erase_b_0
+find_0_0	C	←		erase_b_0
+find_0_0	D	←		erase_b_0
+find_0_0	E	←		erase_b_0
+find_0_0	F	←		erase_b_0
+carry_0_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_1
+carry_0_1	,	→		find_0_1
+find_0_1	a b c d e f g h i j k l m n o p	→		find_0_1
+find_0_1	0	←	b	swap_back_0
+find_0_1	1	←	b	back_b_0
+find_0_1	2	←		erase_b_0
+find_0_1	3	←		erase_b_0
+find_0_1	4	←		erase_b_0
+find_0_1	5	←		erase_b_0
+find_0_1	6	←		erase_b_0
+find_0_1	7	←		erase_b_0
+find_0_1	8	←		erase_b_0
+find_0_1	9	←		erase_b_0
+find_0_1	A	←		erase_b_0
+find_0_1	B	←		erase_b_0
+find_0_1	C	←		erase_b_0
+find_0_1	D	←		erase_b_0
+find_0_1	E	←		erase_b_0
+find_0_1	F	←		erase_b_0
+carry_0_2	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_2
+carry_0_2	,	→		find_0_2
+find_0_2	a b c d e f g h i j k l m n o p	→		find_0_2
+find_0_2	0	←	c	swap_back_0
+find_0_2	1	←	c	swap_back_1
+find_0_2	2	←	c	back_b_0
+find_0_2	3	←		erase_b_0
+find_0_2	4	←		erase_b_0
+find_0_2	5	←		erase_b_0
+find_0_2	6	←		erase_b_0
+find_0_2	7	←		erase_b_0
+find_0_2	8	←		erase_b_0
+find_0_2	9	←		erase_b_0
+find_0_2	A	←		erase_b_0
+find_0_2	B	←		erase_b_0
+find_0_2	C	←		erase_b_0
+find_0_2	D	←		erase_b_0
+find_0_2	E	←		erase_b_0
+find_0_2	F	←		erase_b_0
+carry_0_3	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_3
+carry_0_3	,	→		find_0_3
+find_0_3	a b c d e f g h i j k l m n o p	→		find_0_3
+find_0_3	0	←	d	swap_back_0
+find_0_3	1	←	d	swap_back_1
+find_0_3	2	←	d	swap_back_2
+find_0_3	3	←	d	back_b_0
+find_0_3	4	←		erase_b_0
+find_0_3	5	←		erase_b_0
+find_0_3	6	←		erase_b_0
+find_0_3	7	←		erase_b_0
+find_0_3	8	←		erase_b_0
+find_0_3	9	←		erase_b_0
+find_0_3	A	←		erase_b_0
+find_0_3	B	←		erase_b_0
+find_0_3	C	←		erase_b_0
+find_0_3	D	←		erase_b_0
+find_0_3	E	←		erase_b_0
+find_0_3	F	←		erase_b_0
+carry_0_4	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_4
+carry_0_4	,	→		find_0_4
+find_0_4	a b c d e f g h i j k l m n o p	→		find_0_4
+find_0_4	0	←	e	swap_back_0
+find_0_4	1	←	e	swap_back_1
+find_0_4	2	←	e	swap_back_2
+find_0_4	3	←	e	swap_back_3
+find_0_4	4	←	e	back_b_0
+find_0_4	5	←		erase_b_0
+find_0_4	6	←		erase_b_0
+find_0_4	7	←		erase_b_0
+find_0_4	8	←		erase_b_0
+find_0_4	9	←		erase_b_0
+find_0_4	A	←		erase_b_0
+find_0_4	B	←		erase_b_0
+find_0_4	C	←		erase_b_0
+find_0_4	D	←		erase_b_0
+find_0_4	E	←		erase_b_0
+find_0_4	F	←		erase_b_0
+carry_0_5	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_5
+carry_0_5	,	→		find_0_5
+find_0_5	a b c d e f g h i j k l m n o p	→		find_0_5
+find_0_5	0	←	f	swap_back_0
+find_0_5	1	←	f	swap_back_1
+find_0_5	2	←	f	swap_back_2
+find_0_5	3	←	f	swap_back_3
+find_0_5	4	←	f	swap_back_4
+find_0_5	5	←	f	back_b_0
+find_0_5	6	←		erase_b_0
+find_0_5	7	←		erase_b_0
+find_0_5	8	←		erase_b_0
+find_0_5	9	←		erase_b_0
+find_0_5	A	←		erase_b_0
+find_0_5	B	←		erase_b_0
+find_0_5	C	←		erase_b_0
+find_0_5	D	←		erase_b_0
+find_0_5	E	←		erase_b_0
+find_0_5	F	←		erase_b_0
+carry_0_6	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_6
+carry_0_6	,	→		find_0_6
+find_0_6	a b c d e f g h i j k l m n o p	→		find_0_6
+find_0_6	0	←	g	swap_back_0
+find_0_6	1	←	g	swap_back_1
+find_0_6	2	←	g	swap_back_2
+find_0_6	3	←	g	swap_back_3
+find_0_6	4	←	g	swap_back_4
+find_0_6	5	←	g	swap_back_5
+find_0_6	6	←	g	back_b_0
+find_0_6	7	←		erase_b_0
+find_0_6	8	←		erase_b_0
+find_0_6	9	←		erase_b_0
+find_0_6	A	←		erase_b_0
+find_0_6	B	←		erase_b_0
+find_0_6	C	←		erase_b_0
+find_0_6	D	←		erase_b_0
+find_0_6	E	←		erase_b_0
+find_0_6	F	←		erase_b_0
+carry_0_7	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_7
+carry_0_7	,	→		find_0_7
+find_0_7	a b c d e f g h i j k l m n o p	→		find_0_7
+find_0_7	0	←	h	swap_back_0
+find_0_7	1	←	h	swap_back_1
+find_0_7	2	←	h	swap_back_2
+find_0_7	3	←	h	swap_back_3
+find_0_7	4	←	h	swap_back_4
+find_0_7	5	←	h	swap_back_5
+find_0_7	6	←	h	swap_back_6
+find_0_7	7	←	h	back_b_0
+find_0_7	8	←		erase_b_0
+find_0_7	9	←		erase_b_0
+find_0_7	A	←		erase_b_0
+find_0_7	B	←		erase_b_0
+find_0_7	C	←		erase_b_0
+find_0_7	D	←		erase_b_0
+find_0_7	E	←		erase_b_0
+find_0_7	F	←		erase_b_0
+carry_0_8	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_8
+carry_0_8	,	→		find_0_8
+find_0_8	a b c d e f g h i j k l m n o p	→		find_0_8
+find_0_8	0	←	i	swap_back_0
+find_0_8	1	←	i	swap_back_1
+find_0_8	2	←	i	swap_back_2
+find_0_8	3	←	i	swap_back_3
+find_0_8	4	←	i	swap_back_4
+find_0_8	5	←	i	swap_back_5
+find_0_8	6	←	i	swap_back_6
+find_0_8	7	←	i	swap_back_7
+find_0_8	8	←	i	back_b_0
+find_0_8	9	←		erase_b_0
+find_0_8	A	←		erase_b_0
+find_0_8	B	←		erase_b_0
+find_0_8	C	←		erase_b_0
+find_0_8	D	←		erase_b_0
+find_0_8	E	←		erase_b_0
+find_0_8	F	←		erase_b_0
+carry_0_9	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_9
+carry_0_9	,	→		find_0_9
+find_0_9	a b c d e f g h i j k l m n o p	→		find_0_9
+find_0_9	0	←	j	swap_back_0
+find_0_9	1	←	j	swap_back_1
+find_0_9	2	←	j	swap_back_2
+find_0_9	3	←	j	swap_back_3
+find_0_9	4	←	j	swap_back_4
+find_0_9	5	←	j	swap_back_5
+find_0_9	6	←	j	swap_back_6
+find_0_9	7	←	j	swap_back_7
+find_0_9	8	←	j	swap_back_8
+find_0_9	9	←	j	back_b_0
+find_0_9	A	←		erase_b_0
+find_0_9	B	←		erase_b_0
+find_0_9	C	←		erase_b_0
+find_0_9	D	←		erase_b_0
+find_0_9	E	←		erase_b_0
+find_0_9	F	←		erase_b_0
+carry_0_A	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_A
+carry_0_A	,	→		find_0_A
+find_0_A	a b c d e f g h i j k l m n o p	→		find_0_A
+find_0_A	0	←	k	swap_back_0
+find_0_A	1	←	k	swap_back_1
+find_0_A	2	←	k	swap_back_2
+find_0_A	3	←	k	swap_back_3
+find_0_A	4	←	k	swap_back_4
+find_0_A	5	←	k	swap_back_5
+find_0_A	6	←	k	swap_back_6
+find_0_A	7	←	k	swap_back_7
+find_0_A	8	←	k	swap_back_8
+find_0_A	9	←	k	swap_back_9
+find_0_A	A	←	k	back_b_0
+find_0_A	B	←		erase_b_0
+find_0_A	C	←		erase_b_0
+find_0_A	D	←		erase_b_0
+find_0_A	E	←		erase_b_0
+find_0_A	F	←		erase_b_0
+carry_0_B	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_B
+carry_0_B	,	→		find_0_B
+find_0_B	a b c d e f g h i j k l m n o p	→		find_0_B
+find_0_B	0	←	l	swap_back_0
+find_0_B	1	←	l	swap_back_1
+find_0_B	2	←	l	swap_back_2
+find_0_B	3	←	l	swap_back_3
+find_0_B	4	←	l	swap_back_4
+find_0_B	5	←	l	swap_back_5
+find_0_B	6	←	l	swap_back_6
+find_0_B	7	←	l	swap_back_7
+find_0_B	8	←	l	swap_back_8
+find_0_B	9	←	l	swap_back_9
+find_0_B	A	←	l	swap_back_A
+find_0_B	B	←	l	back_b_0
+find_0_B	C	←		erase_b_0
+find_0_B	D	←		erase_b_0
+find_0_B	E	←		erase_b_0
+find_0_B	F	←		erase_b_0
+carry_0_C	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_C
+carry_0_C	,	→		find_0_C
+find_0_C	a b c d e f g h i j k l m n o p	→		find_0_C
+find_0_C	0	←	m	swap_back_0
+find_0_C	1	←	m	swap_back_1
+find_0_C	2	←	m	swap_back_2
+find_0_C	3	←	m	swap_back_3
+find_0_C	4	←	m	swap_back_4
+find_0_C	5	←	m	swap_back_5
+find_0_C	6	←	m	swap_back_6
+find_0_C	7	←	m	swap_back_7
+find_0_C	8	←	m	swap_back_8
+find_0_C	9	←	m	swap_back_9
+find_0_C	A	←	m	swap_back_A
+find_0_C	B	←	m	swap_back_B
+find_0_C	C	←	m	back_b_0
+find_0_C	D	←		erase_b_0
+find_0_C	E	←		erase_b_0
+find_0_C	F	←		erase_b_0
+carry_0_D	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_D
+carry_0_D	,	→		find_0_D
+find_0_D	a b c d e f g h i j k l m n o p	→		find_0_D
+find_0_D	0	←	n	swap_back_0
+find_0_D	1	←	n	swap_back_1
+find_0_D	2	←	n	swap_back_2
+find_0_D	3	←	n	swap_back_3
+find_0_D	4	←	n	swap_back_4
+find_0_D	5	←	n	swap_back_5
+find_0_D	6	←	n	swap_back_6
+find_0_D	7	←	n	swap_back_7
+find_0_D	8	←	n	swap_back_8
+find_0_D	9	←	n	swap_back_9
+find_0_D	A	←	n	swap_back_A
+find_0_D	B	←	n	swap_back_B
+find_0_D	C	←	n	swap_back_C
+find_0_D	D	←	n	back_b_0
+find_0_D	E	←		erase_b_0
+find_0_D	F	←		erase_b_0
+carry_0_E	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_E
+carry_0_E	,	→		find_0_E
+find_0_E	a b c d e f g h i j k l m n o p	→		find_0_E
+find_0_E	0	←	o	swap_back_0
+find_0_E	1	←	o	swap_back_1
+find_0_E	2	←	o	swap_back_2
+find_0_E	3	←	o	swap_back_3
+find_0_E	4	←	o	swap_back_4
+find_0_E	5	←	o	swap_back_5
+find_0_E	6	←	o	swap_back_6
+find_0_E	7	←	o	swap_back_7
+find_0_E	8	←	o	swap_back_8
+find_0_E	9	←	o	swap_back_9
+find_0_E	A	←	o	swap_back_A
+find_0_E	B	←	o	swap_back_B
+find_0_E	C	←	o	swap_back_C
+find_0_E	D	←	o	swap_back_D
+find_0_E	E	←	o	back_b_0
+find_0_E	F	←		erase_b_0
+carry_0_F	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_0_F
+carry_0_F	,	→		find_0_F
+find_0_F	a b c d e f g h i j k l m n o p	→		find_0_F
+find_0_F	0	←	p	swap_back_0
+find_0_F	1	←	p	swap_back_1
+find_0_F	2	←	p	swap_back_2
+find_0_F	3	←	p	swap_back_3
+find_0_F	4	←	p	swap_back_4
+find_0_F	5	←	p	swap_back_5
+find_0_F	6	←	p	swap_back_6
+find_0_F	7	←	p	swap_back_7
+find_0_F	8	←	p	swap_back_8
+find_0_F	9	←	p	swap_back_9
+find_0_F	A	←	p	swap_back_A
+find_0_F	B	←	p	swap_back_B
+find_0_F	C	←	p	swap_back_C
+find_0_F	D	←	p	swap_back_D
+find_0_F	E	←	p	swap_back_E
+find_0_F	F	←	p	back_b_0
+back_b_0	a b c d e f g h i j k l m n o p	←		back_b_0
+back_b_0	,	←		back_a_0
+back_a_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		back_a_0
+back_a_0	a b c d e f g h i j k l m n o p	→		compare_0
+move_to_end_b_0	a b c d e f g h i j k l m n o p	→		move_to_end_b_0
+move_to_end_b_0	, ]	←		erase_b_0
+erase_b_0	a	←	0	erase_b_0
+erase_b_0	b	←	1	erase_b_0
+erase_b_0	c	←	2	erase_b_0
+erase_b_0	d	←	3	erase_b_0
+erase_b_0	e	←	4	erase_b_0
+erase_b_0	f	←	5	erase_b_0
+erase_b_0	g	←	6	erase_b_0
+erase_b_0	h	←	7	erase_b_0
+erase_b_0	i	←	8	erase_b_0
+erase_b_0	j	←	9	erase_b_0
+erase_b_0	k	←	A	erase_b_0
+erase_b_0	l	←	B	erase_b_0
+erase_b_0	m	←	C	erase_b_0
+erase_b_0	n	←	D	erase_b_0
+erase_b_0	o	←	E	erase_b_0
+erase_b_0	p	←	F	erase_b_0
+erase_b_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_b_0
+erase_b_0	,	←		erase_a_0
+erase_a_0	a	←	0	erase_a_0
+erase_a_0	b	←	1	erase_a_0
+erase_a_0	c	←	2	erase_a_0
+erase_a_0	d	←	3	erase_a_0
+erase_a_0	e	←	4	erase_a_0
+erase_a_0	f	←	5	erase_a_0
+erase_a_0	g	←	6	erase_a_0
+erase_a_0	h	←	7	erase_a_0
+erase_a_0	i	←	8	erase_a_0
+erase_a_0	j	←	9	erase_a_0
+erase_a_0	k	←	A	erase_a_0
+erase_a_0	l	←	B	erase_a_0
+erase_a_0	m	←	C	erase_a_0
+erase_a_0	n	←	D	erase_a_0
+erase_a_0	o	←	E	erase_a_0
+erase_a_0	p	←	F	erase_a_0
+erase_a_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_a_0
+erase_a_0	, [	→		to_b_0
+to_b_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		to_b_0
+to_b_0	,	→		start_0
+rewind_0	0 1 2 3 4 5 6 7 8 9 A B C D E F ,	←		rewind_0
+rewind_0	[	⏹		✔
+start_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		peek_1
+start_1	]	←		rewind_1
+peek_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		peek_1
+peek_1	,	←		go_back_1
+peek_1	]	←		rewind_1
+go_back_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		go_back_1
+go_back_1	, [	→		compare_1
+compare_1	0	→	a	carry_1_0
+compare_1	1	→	b	carry_1_1
+compare_1	2	→	c	carry_1_2
+compare_1	3	→	d	carry_1_3
+compare_1	4	→	e	carry_1_4
+compare_1	5	→	f	carry_1_5
+compare_1	6	→	g	carry_1_6
+compare_1	7	→	h	carry_1_7
+compare_1	8	→	i	carry_1_8
+compare_1	9	→	j	carry_1_9
+compare_1	A	→	k	carry_1_A
+compare_1	B	→	l	carry_1_B
+compare_1	C	→	m	carry_1_C
+compare_1	D	→	n	carry_1_D
+compare_1	E	→	o	carry_1_E
+compare_1	F	→	p	carry_1_F
+compare_1	,	→		move_to_end_b_1
+carry_1_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_0
+carry_1_0	,	→		find_1_0
+find_1_0	a b c d e f g h i j k l m n o p	→		find_1_0
+find_1_0	0	←	a	back_b_1
+find_1_0	1	←		erase_b_1
+find_1_0	2	←		erase_b_1
+find_1_0	3	←		erase_b_1
+find_1_0	4	←		erase_b_1
+find_1_0	5	←		erase_b_1
+find_1_0	6	←		erase_b_1
+find_1_0	7	←		erase_b_1
+find_1_0	8	←		erase_b_1
+find_1_0	9	←		erase_b_1
+find_1_0	A	←		erase_b_1
+find_1_0	B	←		erase_b_1
+find_1_0	C	←		erase_b_1
+find_1_0	D	←		erase_b_1
+find_1_0	E	←		erase_b_1
+find_1_0	F	←		erase_b_1
+carry_1_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_1
+carry_1_1	,	→		find_1_1
+find_1_1	a b c d e f g h i j k l m n o p	→		find_1_1
+find_1_1	0	←	b	swap_back_0
+find_1_1	1	←	b	back_b_1
+find_1_1	2	←		erase_b_1
+find_1_1	3	←		erase_b_1
+find_1_1	4	←		erase_b_1
+find_1_1	5	←		erase_b_1
+find_1_1	6	←		erase_b_1
+find_1_1	7	←		erase_b_1
+find_1_1	8	←		erase_b_1
+find_1_1	9	←		erase_b_1
+find_1_1	A	←		erase_b_1
+find_1_1	B	←		erase_b_1
+find_1_1	C	←		erase_b_1
+find_1_1	D	←		erase_b_1
+find_1_1	E	←		erase_b_1
+find_1_1	F	←		erase_b_1
+carry_1_2	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_2
+carry_1_2	,	→		find_1_2
+find_1_2	a b c d e f g h i j k l m n o p	→		find_1_2
+find_1_2	0	←	c	swap_back_0
+find_1_2	1	←	c	swap_back_1
+find_1_2	2	←	c	back_b_1
+find_1_2	3	←		erase_b_1
+find_1_2	4	←		erase_b_1
+find_1_2	5	←		erase_b_1
+find_1_2	6	←		erase_b_1
+find_1_2	7	←		erase_b_1
+find_1_2	8	←		erase_b_1
+find_1_2	9	←		erase_b_1
+find_1_2	A	←		erase_b_1
+find_1_2	B	←		erase_b_1
+find_1_2	C	←		erase_b_1
+find_1_2	D	←		erase_b_1
+find_1_2	E	←		erase_b_1
+find_1_2	F	←		erase_b_1
+carry_1_3	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_3
+carry_1_3	,	→		find_1_3
+find_1_3	a b c d e f g h i j k l m n o p	→		find_1_3
+find_1_3	0	←	d	swap_back_0
+find_1_3	1	←	d	swap_back_1
+find_1_3	2	←	d	swap_back_2
+find_1_3	3	←	d	back_b_1
+find_1_3	4	←		erase_b_1
+find_1_3	5	←		erase_b_1
+find_1_3	6	←		erase_b_1
+find_1_3	7	←		erase_b_1
+find_1_3	8	←		erase_b_1
+find_1_3	9	←		erase_b_1
+find_1_3	A	←		erase_b_1
+find_1_3	B	←		erase_b_1
+find_1_3	C	←		erase_b_1
+find_1_3	D	←		erase_b_1
+find_1_3	E	←		erase_b_1
+find_1_3	F	←		erase_b_1
+carry_1_4	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_4
+carry_1_4	,	→		find_1_4
+find_1_4	a b c d e f g h i j k l m n o p	→		find_1_4
+find_1_4	0	←	e	swap_back_0
+find_1_4	1	←	e	swap_back_1
+find_1_4	2	←	e	swap_back_2
+find_1_4	3	←	e	swap_back_3
+find_1_4	4	←	e	back_b_1
+find_1_4	5	←		erase_b_1
+find_1_4	6	←		erase_b_1
+find_1_4	7	←		erase_b_1
+find_1_4	8	←		erase_b_1
+find_1_4	9	←		erase_b_1
+find_1_4	A	←		erase_b_1
+find_1_4	B	←		erase_b_1
+find_1_4	C	←		erase_b_1
+find_1_4	D	←		erase_b_1
+find_1_4	E	←		erase_b_1
+find_1_4	F	←		erase_b_1
+carry_1_5	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_5
+carry_1_5	,	→		find_1_5
+find_1_5	a b c d e f g h i j k l m n o p	→		find_1_5
+find_1_5	0	←	f	swap_back_0
+find_1_5	1	←	f	swap_back_1
+find_1_5	2	←	f	swap_back_2
+find_1_5	3	←	f	swap_back_3
+find_1_5	4	←	f	swap_back_4
+find_1_5	5	←	f	back_b_1
+find_1_5	6	←		erase_b_1
+find_1_5	7	←		erase_b_1
+find_1_5	8	←		erase_b_1
+find_1_5	9	←		erase_b_1
+find_1_5	A	←		erase_b_1
+find_1_5	B	←		erase_b_1
+find_1_5	C	←		erase_b_1
+find_1_5	D	←		erase_b_1
+find_1_5	E	←		erase_b_1
+find_1_5	F	←		erase_b_1
+carry_1_6	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_6
+carry_1_6	,	→		find_1_6
+find_1_6	a b c d e f g h i j k l m n o p	→		find_1_6
+find_1_6	0	←	g	swap_back_0
+find_1_6	1	←	g	swap_back_1
+find_1_6	2	←	g	swap_back_2
+find_1_6	3	←	g	swap_back_3
+find_1_6	4	←	g	swap_back_4
+find_1_6	5	←	g	swap_back_5
+find_1_6	6	←	g	back_b_1
+find_1_6	7	←		erase_b_1
+find_1_6	8	←		erase_b_1
+find_1_6	9	←		erase_b_1
+find_1_6	A	←		erase_b_1
+find_1_6	B	←		erase_b_1
+find_1_6	C	←		erase_b_1
+find_1_6	D	←		erase_b_1
+find_1_6	E	←		erase_b_1
+find_1_6	F	←		erase_b_1
+carry_1_7	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_7
+carry_1_7	,	→		find_1_7
+find_1_7	a b c d e f g h i j k l m n o p	→		find_1_7
+find_1_7	0	←	h	swap_back_0
+find_1_7	1	←	h	swap_back_1
+find_1_7	2	←	h	swap_back_2
+find_1_7	3	←	h	swap_back_3
+find_1_7	4	←	h	swap_back_4
+find_1_7	5	←	h	swap_back_5
+find_1_7	6	←	h	swap_back_6
+find_1_7	7	←	h	back_b_1
+find_1_7	8	←		erase_b_1
+find_1_7	9	←		erase_b_1
+find_1_7	A	←		erase_b_1
+find_1_7	B	←		erase_b_1
+find_1_7	C	←		erase_b_1
+find_1_7	D	←		erase_b_1
+find_1_7	E	←		erase_b_1
+find_1_7	F	←		erase_b_1
+carry_1_8	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_8
+carry_1_8	,	→		find_1_8
+find_1_8	a b c d e f g h i j k l m n o p	→		find_1_8
+find_1_8	0	←	i	swap_back_0
+find_1_8	1	←	i	swap_back_1
+find_1_8	2	←	i	swap_back_2
+find_1_8	3	←	i	swap_back_3
+find_1_8	4	←	i	swap_back_4
+find_1_8	5	←	i	swap_back_5
+find_1_8	6	←	i	swap_back_6
+find_1_8	7	←	i	swap_back_7
+find_1_8	8	←	i	back_b_1
+find_1_8	9	←		erase_b_1
+find_1_8	A	←		erase_b_1
+find_1_8	B	←		erase_b_1
+find_1_8	C	←		erase_b_1
+find_1_8	D	←		erase_b_1
+find_1_8	E	←		erase_b_1
+find_1_8	F	←		erase_b_1
+carry_1_9	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_9
+carry_1_9	,	→		find_1_9
+find_1_9	a b c d e f g h i j k l m n o p	→		find_1_9
+find_1_9	0	←	j	swap_back_0
+find_1_9	1	←	j	swap_back_1
+find_1_9	2	←	j	swap_back_2
+find_1_9	3	←	j	swap_back_3
+find_1_9	4	←	j	swap_back_4
+find_1_9	5	←	j	swap_back_5
+find_1_9	6	←	j	swap_back_6
+find_1_9	7	←	j	swap_back_7
+find_1_9	8	←	j	swap_back_8
+find_1_9	9	←	j	back_b_1
+find_1_9	A	←		erase_b_1
+find_1_9	B	←		erase_b_1
+find_1_9	C	←		erase_b_1
+find_1_9	D	←		erase_b_1
+find_1_9	E	←		erase_b_1
+find_1_9	F	←		erase_b_1
+carry_1_A	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_A
+carry_1_A	,	→		find_1_A
+find_1_A	a b c d e f g h i j k l m n o p	→		find_1_A
+find_1_A	0	←	k	swap_back_0
+find_1_A	1	←	k	swap_back_1
+find_1_A	2	←	k	swap_back_2
+find_1_A	3	←	k	swap_back_3
+find_1_A	4	←	k	swap_back_4
+find_1_A	5	←	k	swap_back_5
+find_1_A	6	←	k	swap_back_6
+find_1_A	7	←	k	swap_back_7
+find_1_A	8	←	k	swap_back_8
+find_1_A	9	←	k	swap_back_9
+find_1_A	A	←	k	back_b_1
+find_1_A	B	←		erase_b_1
+find_1_A	C	←		erase_b_1
+find_1_A	D	←		erase_b_1
+find_1_A	E	←		erase_b_1
+find_1_A	F	←		erase_b_1
+carry_1_B	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_B
+carry_1_B	,	→		find_1_B
+find_1_B	a b c d e f g h i j k l m n o p	→		find_1_B
+find_1_B	0	←	l	swap_back_0
+find_1_B	1	←	l	swap_back_1
+find_1_B	2	←	l	swap_back_2
+find_1_B	3	←	l	swap_back_3
+find_1_B	4	←	l	swap_back_4
+find_1_B	5	←	l	swap_back_5
+find_1_B	6	←	l	swap_back_6
+find_1_B	7	←	l	swap_back_7
+find_1_B	8	←	l	swap_back_8
+find_1_B	9	←	l	swap_back_9
+find_1_B	A	←	l	swap_back_A
+find_1_B	B	←	l	back_b_1
+find_1_B	C	←		erase_b_1
+find_1_B	D	←		erase_b_1
+find_1_B	E	←		erase_b_1
+find_1_B	F	←		erase_b_1
+carry_1_C	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_C
+carry_1_C	,	→		find_1_C
+find_1_C	a b c d e f g h i j k l m n o p	→		find_1_C
+find_1_C	0	←	m	swap_back_0
+find_1_C	1	←	m	swap_back_1
+find_1_C	2	←	m	swap_back_2
+find_1_C	3	←	m	swap_back_3
+find_1_C	4	←	m	swap_back_4
+find_1_C	5	←	m	swap_back_5
+find_1_C	6	←	m	swap_back_6
+find_1_C	7	←	m	swap_back_7
+find_1_C	8	←	m	swap_back_8
+find_1_C	9	←	m	swap_back_9
+find_1_C	A	←	m	swap_back_A
+find_1_C	B	←	m	swap_back_B
+find_1_C	C	←	m	back_b_1
+find_1_C	D	←		erase_b_1
+find_1_C	E	←		erase_b_1
+find_1_C	F	←		erase_b_1
+carry_1_D	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_D
+carry_1_D	,	→		find_1_D
+find_1_D	a b c d e f g h i j k l m n o p	→		find_1_D
+find_1_D	0	←	n	swap_back_0
+find_1_D	1	←	n	swap_back_1
+find_1_D	2	←	n	swap_back_2
+find_1_D	3	←	n	swap_back_3
+find_1_D	4	←	n	swap_back_4
+find_1_D	5	←	n	swap_back_5
+find_1_D	6	←	n	swap_back_6
+find_1_D	7	←	n	swap_back_7
+find_1_D	8	←	n	swap_back_8
+find_1_D	9	←	n	swap_back_9
+find_1_D	A	←	n	swap_back_A
+find_1_D	B	←	n	swap_back_B
+find_1_D	C	←	n	swap_back_C
+find_1_D	D	←	n	back_b_1
+find_1_D	E	←		erase_b_1
+find_1_D	F	←		erase_b_1
+carry_1_E	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_E
+carry_1_E	,	→		find_1_E
+find_1_E	a b c d e f g h i j k l m n o p	→		find_1_E
+find_1_E	0	←	o	swap_back_0
+find_1_E	1	←	o	swap_back_1
+find_1_E	2	←	o	swap_back_2
+find_1_E	3	←	o	swap_back_3
+find_1_E	4	←	o	swap_back_4
+find_1_E	5	←	o	swap_back_5
+find_1_E	6	←	o	swap_back_6
+find_1_E	7	←	o	swap_back_7
+find_1_E	8	←	o	swap_back_8
+find_1_E	9	←	o	swap_back_9
+find_1_E	A	←	o	swap_back_A
+find_1_E	B	←	o	swap_back_B
+find_1_E	C	←	o	swap_back_C
+find_1_E	D	←	o	swap_back_D
+find_1_E	E	←	o	back_b_1
+find_1_E	F	←		erase_b_1
+carry_1_F	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		carry_1_F
+carry_1_F	,	→		find_1_F
+find_1_F	a b c d e f g h i j k l m n o p	→		find_1_F
+find_1_F	0	←	p	swap_back_0
+find_1_F	1	←	p	swap_back_1
+find_1_F	2	←	p	swap_back_2
+find_1_F	3	←	p	swap_back_3
+find_1_F	4	←	p	swap_back_4
+find_1_F	5	←	p	swap_back_5
+find_1_F	6	←	p	swap_back_6
+find_1_F	7	←	p	swap_back_7
+find_1_F	8	←	p	swap_back_8
+find_1_F	9	←	p	swap_back_9
+find_1_F	A	←	p	swap_back_A
+find_1_F	B	←	p	swap_back_B
+find_1_F	C	←	p	swap_back_C
+find_1_F	D	←	p	swap_back_D
+find_1_F	E	←	p	swap_back_E
+find_1_F	F	←	p	back_b_1
+back_b_1	a b c d e f g h i j k l m n o p	←		back_b_1
+back_b_1	,	←		back_a_1
+back_a_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		back_a_1
+back_a_1	a b c d e f g h i j k l m n o p	→		compare_1
+move_to_end_b_1	a b c d e f g h i j k l m n o p	→		move_to_end_b_1
+move_to_end_b_1	, ]	←		erase_b_1
+erase_b_1	a	←	0	erase_b_1
+erase_b_1	b	←	1	erase_b_1
+erase_b_1	c	←	2	erase_b_1
+erase_b_1	d	←	3	erase_b_1
+erase_b_1	e	←	4	erase_b_1
+erase_b_1	f	←	5	erase_b_1
+erase_b_1	g	←	6	erase_b_1
+erase_b_1	h	←	7	erase_b_1
+erase_b_1	i	←	8	erase_b_1
+erase_b_1	j	←	9	erase_b_1
+erase_b_1	k	←	A	erase_b_1
+erase_b_1	l	←	B	erase_b_1
+erase_b_1	m	←	C	erase_b_1
+erase_b_1	n	←	D	erase_b_1
+erase_b_1	o	←	E	erase_b_1
+erase_b_1	p	←	F	erase_b_1
+erase_b_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_b_1
+erase_b_1	,	←		erase_a_1
+erase_a_1	a	←	0	erase_a_1
+erase_a_1	b	←	1	erase_a_1
+erase_a_1	c	←	2	erase_a_1
+erase_a_1	d	←	3	erase_a_1
+erase_a_1	e	←	4	erase_a_1
+erase_a_1	f	←	5	erase_a_1
+erase_a_1	g	←	6	erase_a_1
+erase_a_1	h	←	7	erase_a_1
+erase_a_1	i	←	8	erase_a_1
+erase_a_1	j	←	9	erase_a_1
+erase_a_1	k	←	A	erase_a_1
+erase_a_1	l	←	B	erase_a_1
+erase_a_1	m	←	C	erase_a_1
+erase_a_1	n	←	D	erase_a_1
+erase_a_1	o	←	E	erase_a_1
+erase_a_1	p	←	F	erase_a_1
+erase_a_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		erase_a_1
+erase_a_1	, [	→		to_b_1
+to_b_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		to_b_1
+to_b_1	,	→		start_1
+rewind_1	0 1 2 3 4 5 6 7 8 9 A B C D E F ,	←		rewind_1
+rewind_1	[	→		start_0
+swap_back_0	a b c d e f g h i j k l m n o p	←		swap_back_0
+swap_back_0	,	←		swap_put_0
+swap_put_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_0
+swap_put_0	a b c d e f g h i j k l m n o p	→	a	swap_next
+swap_back_1	a b c d e f g h i j k l m n o p	←		swap_back_1
+swap_back_1	,	←		swap_put_1
+swap_put_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_1
+swap_put_1	a b c d e f g h i j k l m n o p	→	b	swap_next
+swap_back_2	a b c d e f g h i j k l m n o p	←		swap_back_2
+swap_back_2	,	←		swap_put_2
+swap_put_2	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_2
+swap_put_2	a b c d e f g h i j k l m n o p	→	c	swap_next
+swap_back_3	a b c d e f g h i j k l m n o p	←		swap_back_3
+swap_back_3	,	←		swap_put_3
+swap_put_3	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_3
+swap_put_3	a b c d e f g h i j k l m n o p	→	d	swap_next
+swap_back_4	a b c d e f g h i j k l m n o p	←		swap_back_4
+swap_back_4	,	←		swap_put_4
+swap_put_4	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_4
+swap_put_4	a b c d e f g h i j k l m n o p	→	e	swap_next
+swap_back_5	a b c d e f g h i j k l m n o p	←		swap_back_5
+swap_back_5	,	←		swap_put_5
+swap_put_5	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_5
+swap_put_5	a b c d e f g h i j k l m n o p	→	f	swap_next
+swap_back_6	a b c d e f g h i j k l m n o p	←		swap_back_6
+swap_back_6	,	←		swap_put_6
+swap_put_6	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_6
+swap_put_6	a b c d e f g h i j k l m n o p	→	g	swap_next
+swap_back_7	a b c d e f g h i j k l m n o p	←		swap_back_7
+swap_back_7	,	←		swap_put_7
+swap_put_7	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_7
+swap_put_7	a b c d e f g h i j k l m n o p	→	h	swap_next
+swap_back_8	a b c d e f g h i j k l m n o p	←		swap_back_8
+swap_back_8	,	←		swap_put_8
+swap_put_8	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_8
+swap_put_8	a b c d e f g h i j k l m n o p	→	i	swap_next
+swap_back_9	a b c d e f g h i j k l m n o p	←		swap_back_9
+swap_back_9	,	←		swap_put_9
+swap_put_9	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_9
+swap_put_9	a b c d e f g h i j k l m n o p	→	j	swap_next
+swap_back_A	a b c d e f g h i j k l m n o p	←		swap_back_A
+swap_back_A	,	←		swap_put_A
+swap_put_A	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_A
+swap_put_A	a b c d e f g h i j k l m n o p	→	k	swap_next
+swap_back_B	a b c d e f g h i j k l m n o p	←		swap_back_B
+swap_back_B	,	←		swap_put_B
+swap_put_B	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_B
+swap_put_B	a b c d e f g h i j k l m n o p	→	l	swap_next
+swap_back_C	a b c d e f g h i j k l m n o p	←		swap_back_C
+swap_back_C	,	←		swap_put_C
+swap_put_C	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_C
+swap_put_C	a b c d e f g h i j k l m n o p	→	m	swap_next
+swap_back_D	a b c d e f g h i j k l m n o p	←		swap_back_D
+swap_back_D	,	←		swap_put_D
+swap_put_D	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_D
+swap_put_D	a b c d e f g h i j k l m n o p	→	n	swap_next
+swap_back_E	a b c d e f g h i j k l m n o p	←		swap_back_E
+swap_back_E	,	←		swap_put_E
+swap_put_E	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_E
+swap_put_E	a b c d e f g h i j k l m n o p	→	o	swap_next
+swap_back_F	a b c d e f g h i j k l m n o p	←		swap_back_F
+swap_back_F	,	←		swap_put_F
+swap_put_F	0 1 2 3 4 5 6 7 8 9 A B C D E F	←		swap_put_F
+swap_put_F	a b c d e f g h i j k l m n o p	→	p	swap_next
+swap_next	0	→	a	swap_carry_0
+swap_next	1	→	b	swap_carry_1
+swap_next	2	→	c	swap_carry_2
+swap_next	3	→	d	swap_carry_3
+swap_next	4	→	e	swap_carry_4
+swap_next	5	→	f	swap_carry_5
+swap_next	6	→	g	swap_carry_6
+swap_next	7	→	h	swap_carry_7
+swap_next	8	→	i	swap_carry_8
+swap_next	9	→	j	swap_carry_9
+swap_next	A	→	k	swap_carry_A
+swap_next	B	→	l	swap_carry_B
+swap_next	C	→	m	swap_carry_C
+swap_next	D	→	n	swap_carry_D
+swap_next	E	→	o	swap_carry_E
+swap_next	F	→	p	swap_carry_F
+swap_next	,	→		move_to_end_b_1
+swap_carry_0	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_0
+swap_carry_0	,	→		swap_find_0
+swap_find_0	a b c d e f g h i j k l m n o p	→		swap_find_0
+swap_find_0	0	←	a	swap_back_0
+swap_find_0	1	←	a	swap_back_1
+swap_find_0	2	←	a	swap_back_2
+swap_find_0	3	←	a	swap_back_3
+swap_find_0	4	←	a	swap_back_4
+swap_find_0	5	←	a	swap_back_5
+swap_find_0	6	←	a	swap_back_6
+swap_find_0	7	←	a	swap_back_7
+swap_find_0	8	←	a	swap_back_8
+swap_find_0	9	←	a	swap_back_9
+swap_find_0	A	←	a	swap_back_A
+swap_find_0	B	←	a	swap_back_B
+swap_find_0	C	←	a	swap_back_C
+swap_find_0	D	←	a	swap_back_D
+swap_find_0	E	←	a	swap_back_E
+swap_find_0	F	←	a	swap_back_F
+swap_carry_1	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_1
+swap_carry_1	,	→		swap_find_1
+swap_find_1	a b c d e f g h i j k l m n o p	→		swap_find_1
+swap_find_1	0	←	b	swap_back_0
+swap_find_1	1	←	b	swap_back_1
+swap_find_1	2	←	b	swap_back_2
+swap_find_1	3	←	b	swap_back_3
+swap_find_1	4	←	b	swap_back_4
+swap_find_1	5	←	b	swap_back_5
+swap_find_1	6	←	b	swap_back_6
+swap_find_1	7	←	b	swap_back_7
+swap_find_1	8	←	b	swap_back_8
+swap_find_1	9	←	b	swap_back_9
+swap_find_1	A	←	b	swap_back_A
+swap_find_1	B	←	b	swap_back_B
+swap_find_1	C	←	b	swap_back_C
+swap_find_1	D	←	b	swap_back_D
+swap_find_1	E	←	b	swap_back_E
+swap_find_1	F	←	b	swap_back_F
+swap_carry_2	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_2
+swap_carry_2	,	→		swap_find_2
+swap_find_2	a b c d e f g h i j k l m n o p	→		swap_find_2
+swap_find_2	0	←	c	swap_back_0
+swap_find_2	1	←	c	swap_back_1
+swap_find_2	2	←	c	swap_back_2
+swap_find_2	3	←	c	swap_back_3
+swap_find_2	4	←	c	swap_back_4
+swap_find_2	5	←	c	swap_back_5
+swap_find_2	6	←	c	swap_back_6
+swap_find_2	7	←	c	swap_back_7
+swap_find_2	8	←	c	swap_back_8
+swap_find_2	9	←	c	swap_back_9
+swap_find_2	A	←	c	swap_back_A
+swap_find_2	B	←	c	swap_back_B
+swap_find_2	C	←	c	swap_back_C
+swap_find_2	D	←	c	swap_back_D
+swap_find_2	E	←	c	swap_back_E
+swap_find_2	F	←	c	swap_back_F
+swap_carry_3	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_3
+swap_carry_3	,	→		swap_find_3
+swap_find_3	a b c d e f g h i j k l m n o p	→		swap_find_3
+swap_find_3	0	←	d	swap_back_0
+swap_find_3	1	←	d	swap_back_1
+swap_find_3	2	←	d	swap_back_2
+swap_find_3	3	←	d	swap_back_3
+swap_find_3	4	←	d	swap_back_4
+swap_find_3	5	←	d	swap_back_5
+swap_find_3	6	←	d	swap_back_6
+swap_find_3	7	←	d	swap_back_7
+swap_find_3	8	←	d	swap_back_8
+swap_find_3	9	←	d	swap_back_9
+swap_find_3	A	←	d	swap_back_A
+swap_find_3	B	←	d	swap_back_B
+swap_find_3	C	←	d	swap_back_C
+swap_find_3	D	←	d	swap_back_D
+swap_find_3	E	←	d	swap_back_E
+swap_find_3	F	←	d	swap_back_F
+swap_carry_4	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_4
+swap_carry_4	,	→		swap_find_4
+swap_find_4	a b c d e f g h i j k l m n o p	→		swap_find_4
+swap_find_4	0	←	e	swap_back_0
+swap_find_4	1	←	e	swap_back_1
+swap_find_4	2	←	e	swap_back_2
+swap_find_4	3	←	e	swap_back_3
+swap_find_4	4	←	e	swap_back_4
+swap_find_4	5	←	e	swap_back_5
+swap_find_4	6	←	e	swap_back_6
+swap_find_4	7	←	e	swap_back_7
+swap_find_4	8	←	e	swap_back_8
+swap_find_4	9	←	e	swap_back_9
+swap_find_4	A	←	e	swap_back_A
+swap_find_4	B	←	e	swap_back_B
+swap_find_4	C	←	e	swap_back_C
+swap_find_4	D	←	e	swap_back_D
+swap_find_4	E	←	e	swap_back_E
+swap_find_4	F	←	e	swap_back_F
+swap_carry_5	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_5
+swap_carry_5	,	→		swap_find_5
+swap_find_5	a b c d e f g h i j k l m n o p	→		swap_find_5
+swap_find_5	0	←	f	swap_back_0
+swap_find_5	1	←	f	swap_back_1
+swap_find_5	2	←	f	swap_back_2
+swap_find_5	3	←	f	swap_back_3
+swap_find_5	4	←	f	swap_back_4
+swap_find_5	5	←	f	swap_back_5
+swap_find_5	6	←	f	swap_back_6
+swap_find_5	7	←	f	swap_back_7
+swap_find_5	8	←	f	swap_back_8
+swap_find_5	9	←	f	swap_back_9
+swap_find_5	A	←	f	swap_back_A
+swap_find_5	B	←	f	swap_back_B
+swap_find_5	C	←	f	swap_back_C
+swap_find_5	D	←	f	swap_back_D
+swap_find_5	E	←	f	swap_back_E
+swap_find_5	F	←	f	swap_back_F
+swap_carry_6	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_6
+swap_carry_6	,	→		swap_find_6
+swap_find_6	a b c d e f g h i j k l m n o p	→		swap_find_6
+swap_find_6	0	←	g	swap_back_0
+swap_find_6	1	←	g	swap_back_1
+swap_find_6	2	←	g	swap_back_2
+swap_find_6	3	←	g	swap_back_3
+swap_find_6	4	←	g	swap_back_4
+swap_find_6	5	←	g	swap_back_5
+swap_find_6	6	←	g	swap_back_6
+swap_find_6	7	←	g	swap_back_7
+swap_find_6	8	←	g	swap_back_8
+swap_find_6	9	←	g	swap_back_9
+swap_find_6	A	←	g	swap_back_A
+swap_find_6	B	←	g	swap_back_B
+swap_find_6	C	←	g	swap_back_C
+swap_find_6	D	←	g	swap_back_D
+swap_find_6	E	←	g	swap_back_E
+swap_find_6	F	←	g	swap_back_F
+swap_carry_7	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_7
+swap_carry_7	,	→		swap_find_7
+swap_find_7	a b c d e f g h i j k l m n o p	→		swap_find_7
+swap_find_7	0	←	h	swap_back_0
+swap_find_7	1	←	h	swap_back_1
+swap_find_7	2	←	h	swap_back_2
+swap_find_7	3	←	h	swap_back_3
+swap_find_7	4	←	h	swap_back_4
+swap_find_7	5	←	h	swap_back_5
+swap_find_7	6	←	h	swap_back_6
+swap_find_7	7	←	h	swap_back_7
+swap_find_7	8	←	h	swap_back_8
+swap_find_7	9	←	h	swap_back_9
+swap_find_7	A	←	h	swap_back_A
+swap_find_7	B	←	h	swap_back_B
+swap_find_7	C	←	h	swap_back_C
+swap_find_7	D	←	h	swap_back_D
+swap_find_7	E	←	h	swap_back_E
+swap_find_7	F	←	h	swap_back_F
+swap_carry_8	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_8
+swap_carry_8	,	→		swap_find_8
+swap_find_8	a b c d e f g h i j k l m n o p	→		swap_find_8
+swap_find_8	0	←	i	swap_back_0
+swap_find_8	1	←	i	swap_back_1
+swap_find_8	2	←	i	swap_back_2
+swap_find_8	3	←	i	swap_back_3
+swap_find_8	4	←	i	swap_back_4
+swap_find_8	5	←	i	swap_back_5
+swap_find_8	6	←	i	swap_back_6
+swap_find_8	7	←	i	swap_back_7
+swap_find_8	8	←	i	swap_back_8
+swap_find_8	9	←	i	swap_back_9
+swap_find_8	A	←	i	swap_back_A
+swap_find_8	B	←	i	swap_back_B
+swap_find_8	C	←	i	swap_back_C
+swap_find_8	D	←	i	swap_back_D
+swap_find_8	E	←	i	swap_back_E
+swap_find_8	F	←	i	swap_back_F
+swap_carry_9	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_9
+swap_carry_9	,	→		swap_find_9
+swap_find_9	a b c d e f g h i j k l m n o p	→		swap_find_9
+swap_find_9	0	←	j	swap_back_0
+swap_find_9	1	←	j	swap_back_1
+swap_find_9	2	←	j	swap_back_2
+swap_find_9	3	←	j	swap_back_3
+swap_find_9	4	←	j	swap_back_4
+swap_find_9	5	←	j	swap_back_5
+swap_find_9	6	←	j	swap_back_6
+swap_find_9	7	←	j	swap_back_7
+swap_find_9	8	←	j	swap_back_8
+swap_find_9	9	←	j	swap_back_9
+swap_find_9	A	←	j	swap_back_A
+swap_find_9	B	←	j	swap_back_B
+swap_find_9	C	←	j	swap_back_C
+swap_find_9	D	←	j	swap_back_D
+swap_find_9	E	←	j	swap_back_E
+swap_find_9	F	←	j	swap_back_F
+swap_carry_A	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_A
+swap_carry_A	,	→		swap_find_A
+swap_find_A	a b c d e f g h i j k l m n o p	→		swap_find_A
+swap_find_A	0	←	k	swap_back_0
+swap_find_A	1	←	k	swap_back_1
+swap_find_A	2	←	k	swap_back_2
+swap_find_A	3	←	k	swap_back_3
+swap_find_A	4	←	k	swap_back_4
+swap_find_A	5	←	k	swap_back_5
+swap_find_A	6	←	k	swap_back_6
+swap_find_A	7	←	k	swap_back_7
+swap_find_A	8	←	k	swap_back_8
+swap_find_A	9	←	k	swap_back_9
+swap_find_A	A	←	k	swap_back_A
+swap_find_A	B	←	k	swap_back_B
+swap_find_A	C	←	k	swap_back_C
+swap_find_A	D	←	k	swap_back_D
+swap_find_A	E	←	k	swap_back_E
+swap_find_A	F	←	k	swap_back_F
+swap_carry_B	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_B
+swap_carry_B	,	→		swap_find_B
+swap_find_B	a b c d e f g h i j k l m n o p	→		swap_find_B
+swap_find_B	0	←	l	swap_back_0
+swap_find_B	1	←	l	swap_back_1
+swap_find_B	2	←	l	swap_back_2
+swap_find_B	3	←	l	swap_back_3
+swap_find_B	4	←	l	swap_back_4
+swap_find_B	5	←	l	swap_back_5
+swap_find_B	6	←	l	swap_back_6
+swap_find_B	7	←	l	swap_back_7
+swap_find_B	8	←	l	swap_back_8
+swap_find_B	9	←	l	swap_back_9
+swap_find_B	A	←	l	swap_back_A
+swap_find_B	B	←	l	swap_back_B
+swap_find_B	C	←	l	swap_back_C
+swap_find_B	D	←	l	swap_back_D
+swap_find_B	E	←	l	swap_back_E
+swap_find_B	F	←	l	swap_back_F
+swap_carry_C	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_C
+swap_carry_C	,	→		swap_find_C
+swap_find_C	a b c d e f g h i j k l m n o p	→		swap_find_C
+swap_find_C	0	←	m	swap_back_0
+swap_find_C	1	←	m	swap_back_1
+swap_find_C	2	←	m	swap_back_2
+swap_find_C	3	←	m	swap_back_3
+swap_find_C	4	←	m	swap_back_4
+swap_find_C	5	←	m	swap_back_5
+swap_find_C	6	←	m	swap_back_6
+swap_find_C	7	←	m	swap_back_7
+swap_find_C	8	←	m	swap_back_8
+swap_find_C	9	←	m	swap_back_9
+swap_find_C	A	←	m	swap_back_A
+swap_find_C	B	←	m	swap_back_B
+swap_find_C	C	←	m	swap_back_C
+swap_find_C	D	←	m	swap_back_D
+swap_find_C	E	←	m	swap_back_E
+swap_find_C	F	←	m	swap_back_F
+swap_carry_D	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_D
+swap_carry_D	,	→		swap_find_D
+swap_find_D	a b c d e f g h i j k l m n o p	→		swap_find_D
+swap_find_D	0	←	n	swap_back_0
+swap_find_D	1	←	n	swap_back_1
+swap_find_D	2	←	n	swap_back_2
+swap_find_D	3	←	n	swap_back_3
+swap_find_D	4	←	n	swap_back_4
+swap_find_D	5	←	n	swap_back_5
+swap_find_D	6	←	n	swap_back_6
+swap_find_D	7	←	n	swap_back_7
+swap_find_D	8	←	n	swap_back_8
+swap_find_D	9	←	n	swap_back_9
+swap_find_D	A	←	n	swap_back_A
+swap_find_D	B	←	n	swap_back_B
+swap_find_D	C	←	n	swap_back_C
+swap_find_D	D	←	n	swap_back_D
+swap_find_D	E	←	n	swap_back_E
+swap_find_D	F	←	n	swap_back_F
+swap_carry_E	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_E
+swap_carry_E	,	→		swap_find_E
+swap_find_E	a b c d e f g h i j k l m n o p	→		swap_find_E
+swap_find_E	0	←	o	swap_back_0
+swap_find_E	1	←	o	swap_back_1
+swap_find_E	2	←	o	swap_back_2
+swap_find_E	3	←	o	swap_back_3
+swap_find_E	4	←	o	swap_back_4
+swap_find_E	5	←	o	swap_back_5
+swap_find_E	6	←	o	swap_back_6
+swap_find_E	7	←	o	swap_back_7
+swap_find_E	8	←	o	swap_back_8
+swap_find_E	9	←	o	swap_back_9
+swap_find_E	A	←	o	swap_back_A
+swap_find_E	B	←	o	swap_back_B
+swap_find_E	C	←	o	swap_back_C
+swap_find_E	D	←	o	swap_back_D
+swap_find_E	E	←	o	swap_back_E
+swap_find_E	F	←	o	swap_back_F
+swap_carry_F	0 1 2 3 4 5 6 7 8 9 A B C D E F	→		swap_carry_F
+swap_carry_F	,	→		swap_find_F
+swap_find_F	a b c d e f g h i j k l m n o p	→		swap_find_F
+swap_find_F	0	←	p	swap_back_0
+swap_find_F	1	←	p	swap_back_1
+swap_find_F	2	←	p	swap_back_2
+swap_find_F	3	←	p	swap_back_3
+swap_find_F	4	←	p	swap_back_4
+swap_find_F	5	←	p	swap_back_5
+swap_find_F	6	←	p	swap_back_6
+swap_find_F	7	←	p	swap_back_7
+swap_find_F	8	←	p	swap_back_8
+swap_find_F	9	←	p	swap_back_9
+swap_find_F	A	←	p	swap_back_A
+swap_find_F	B	←	p	swap_back_B
+swap_find_F	C	←	p	swap_back_C
+swap_find_F	D	←	p	swap_back_D
+swap_find_F	E	←	p	swap_back_E
+swap_find_F	F	←	p	swap_back_F
