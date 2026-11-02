@@ -8,7 +8,6 @@ HEX = "0123456789ABCDEF"
 spec = importlib.util.spec_from_file_location("ref", "tm.py")
 ref = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ref)
-
 try:
     machine, problems = ref.load("sort.tsv")
 except ref.InvalidMachine as e:
@@ -19,8 +18,8 @@ for p in problems:
 print(f"valid, {len(machine)} transitions")
 
 class TestSort(unittest.TestCase):
-    def assertSort(self, tape):
-        c = ref.run(machine, tape)
+    def assertSort(self, tape, max_steps = 100000000):
+        c = ref.run(machine, tape, max_steps=max_steps)
         words = tape.strip("[]").split(",") if tape != "[]" else []
         want = "[" + ",".join(sorted(words)) + "]"
         self.assertTrue(c.halted)
