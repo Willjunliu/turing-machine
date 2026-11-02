@@ -1,7 +1,3 @@
-# Your rules, completed and fixed. Same syntax as yours: write_rule(...), HEXSYM, MARKSYM,
-# grouped symbols, "" for "leave the cell unchanged".
-# Run:  python sort_rules_fixed.py   -> writes sort_user.tsv
-
 HEX = "0123456789ABCDEF"
 MARK = "abcdefghijklmnop"
 OPEN, CLOSE, COMMA = "[", "]", ","
@@ -20,7 +16,7 @@ def unmark(m):
     return HEX[MARK.index(m)]
 
 
-seen = set()  # catches duplicate (state, symbol) rows while generating
+seen = set()
 
 
 def write_rule(current_state, current_symbol, move, next_symbol, next_state):
@@ -101,7 +97,7 @@ def build():
         else:
             write_rule("rewind_1", "[", RIGHT, "", "start_0")  # swapped: another pass
 
-    # ---- swap path (always flag 1, so no flag in these names) ----
+    # always flag 1, so no flag in these names
     for b in HEX:
         # swap_back_b: carrying b left through B's marks to the comma
         write_rule(f"swap_back_{b}", MARKSYM, LEFT, "", f"swap_back_{b}")
